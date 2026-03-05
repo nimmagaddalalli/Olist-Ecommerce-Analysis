@@ -1,0 +1,15 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# SQLite database
+*.db
+
+# Ignore dataset files
+data/raw/*.csv
+
+# OS files
+.DS_Store

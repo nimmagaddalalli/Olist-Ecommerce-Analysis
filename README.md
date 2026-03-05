@@ -1,8 +1,8 @@
-\# Olist Brazilian E-Commerce Data Analysis
+# Olist Brazilian E-Commerce Data Analysis
 
 
 
-\## 📌 Project Overview
+## 📌 Project Overview
 
 
 
@@ -14,7 +14,7 @@ This project analyzes the Olist Brazilian E-Commerce dataset to understand custo
 
 
 
-\## 🎯 Business Objectives
+## 🎯 Business Objectives
 
 
 
@@ -27,21 +27,21 @@ This project analyzes the Olist Brazilian E-Commerce dataset to understand custo
 
 
 
-\## 🛠 Tools \& Technologies
+## 🛠 Tools & Technologies
 
 
 
-\-   SQL (SQLite) – Querying and aggregating transactional e-commerce data
+-   SQL (SQLite) – Querying and aggregating transactional e-commerce data
 
-\-   Python (Pandas, NumPy, Matplotlib ,Seaborn)
+-   Python (Pandas, NumPy, Matplotlib ,Seaborn)
 
-\-   Jupyter Notebook – Interactive data exploration and documentation
+-   Jupyter Notebook – Interactive data exploration and documentation
 
-\-   Kaggle Dataset – Olist Brazilian E-Commerce public dataset
+-   Kaggle Dataset – Olist Brazilian E-Commerce public dataset
 
-\-   GitHub – Version control and project portfolio hosting
+-   GitHub – Version control and project portfolio hosting
 
-\-   PowerBI(Data Visualization)
+-   PowerBI(Data Visualization)
 
 
 
@@ -49,7 +49,7 @@ This project analyzes the Olist Brazilian E-Commerce dataset to understand custo
 
 
 
-\## 📂 Project Structure
+## 📂 Project Structure
 
 ```
 olist-ecommerce-analysis/
@@ -78,15 +78,15 @@ olist-ecommerce-analysis/
 
 ------------------------------------------------------------------------
 
-\## 📂Folder details:
+## 📂Folder details:
 
 
 
-\- data/raw/\*\* – Original `.csv` files need to be saved here    
+- data/raw/\*\* – Original `.csv` files need to be saved here    
 
-\- outputs/figures/\*\* – Saved plots such as Average revenue, monthly revenue, monthly aov, top 10 states, average review score and monthly orders
+- outputs/figures/\*\* – Saved plots such as Average revenue, monthly revenue, monthly aov, top 10 states, average review score and monthly orders
 
-\- outputs/tables/\*\* – Summary tables such as customer retention, customer orders, customer value, late delivery retention, order status counts, repeat purchase cycle, review summary and other region summaries 
+- outputs/tables/\*\* – Summary tables such as customer retention, customer orders, customer value, late delivery retention, order status counts, repeat purchase cycle, review summary and other region summaries 
 
 
 
@@ -94,7 +94,7 @@ olist-ecommerce-analysis/
 
 
 
-\## 📊 Key Insights
+## 📊 Key Insights
 
 
 
@@ -114,7 +114,7 @@ olist-ecommerce-analysis/
 
 
 
-\## 📈 Business Recommendations
+## 📈 Business Recommendations
 
 
 
@@ -126,36 +126,33 @@ olist-ecommerce-analysis/
 
 ------------------------------------------------------------------------
 
-
-\## 🚀 How to Run
-
+## 🚀 How to Run
 
 
-1\.  Clone this repository
+
+1.  Clone this repository
 
 
-2\.  git clone https://github.com/your-username/olist-ecommerce-analysis.git
+2.  git clone: https://github.com/your-username/olist-ecommerce-analysis.git
 
 
-3\.  Download the dataset from Kaggle:
-
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+3.  Download the dataset from Kaggle: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 
-4\.  Place the CSV files inside the following folder: data/raw/
+4.  Place the CSV files inside the following folder: data/raw/
 
 
-5\.  Install required Python libraries: pip install -r requirements.txt
+5.  Install required Python libraries: pip install -r requirements.txt
 
 
-6\.  Open the notebook and run the analysis: jupyter notebook notebooks/olist_brazilian_ecommerce_data_analysis.ipynb
+6.  Open the notebook and run the analysis: jupyter notebook notebooks/olist_brazilian_ecommerce_data_analysis.ipynb
 
 
 ------------------------------------------------------------------------
 
 
 
-\## 💡 Author
+## 💡 Author
 
 Lalitha Anusha Nimmagadda – Data Analyst with experience in ecommerce analytics and Python-based data projects.  
 

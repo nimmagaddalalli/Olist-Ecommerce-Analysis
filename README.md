@@ -99,6 +99,53 @@ olist-ecommerce-analysis/
 
 ------------------------------------------------------------------------
 
+## 📊 Power BI Dashboard
+
+An interactive Power BI dashboard was developed to visualize key performance metrics from the Olist Brazilian E-commerce dataset.  
+The dashboard provides insights into revenue performance, product sales trends, operational efficiency, and customer satisfaction.
+
+### Dashboard Pages
+
+**1. Revenue & Growth**
+- Tracks overall revenue performance and order trends over time
+- Highlights monthly revenue growth and average order value (AOV)
+
+**2. Sales & Product Performance**
+- Analyzes product category performance and top-selling products
+- Identifies regions contributing the highest sales
+
+**3. Operations & Delivery**
+- Evaluates delivery performance and late shipment patterns
+- Shows order status distribution and operational efficiency
+
+**4. Customer Satisfaction**
+- Examines customer review scores across regions and orders
+- Identifies factors affecting customer experience
+
+**5. Key Insights**
+- Summarizes the most important business insights derived from the analysis
+- Highlights opportunities for improving customer retention, delivery efficiency, and revenue growth
+
+### Dashboard Preview
+
+#### Revenue & Growth
+![Revenue Dashboard](powerbi/dashboard_screenshots/page1_revenue_and_growth.png)
+
+#### Sales & Product Performance
+![Sales Dashboard](powerbi/dashboard_screenshots/page2_sales_and_product_performance.png)
+
+#### Operations & Delivery
+![Operations Dashboard](powerbi/dashboard_screenshots/page3_operations_and_delivery.png)
+
+#### Customer Satisfaction
+![Customer Dashboard](powerbi/dashboard_screenshots/page4_customer_satisfaction.png)
+
+#### Key Insights
+![Insights Dashboard](powerbi/dashboard_screenshots/page5_key_insights.png)
+
+
+------------------------------------------------------------------------
+
 ## 📈 Business Recommendations
 
 -- Improve Customer Retention: With only ~3% repeat customers, introduce loyalty programs and targeted promotions to encourage repeat purchases.

@@ -1,18 +1,12 @@
 # Olist Brazilian E-Commerce Data Analysis
 
-
-
 ## 📌 Project Overview
 
 
 
 This project analyzes the Olist Brazilian E-Commerce dataset to understand customer behavior, revenue trends, and operational performance. Using SQL and Python, the analysis examines key metrics such as monthly revenue, customer retention, repeat purchase cycle, and delivery performance. The goal is to identify insights that can help improve customer experience, retention, and overall marketplace growth.
 
-
-
 ------------------------------------------------------------------------
-
-
 
 ## 🎯 Business Objectives
 
@@ -24,8 +18,6 @@ This project analyzes the Olist Brazilian E-Commerce dataset to understand custo
 * What operational factors influence customer experience and retention?
 
 ------------------------------------------------------------------------
-
-
 
 ## 🛠 Tools & Technologies
 
@@ -43,11 +35,7 @@ This project analyzes the Olist Brazilian E-Commerce dataset to understand custo
 
 -   PowerBI(Data Visualization)
 
-
-
 ------------------------------------------------------------------------
-
-
 
 ## 📂 Project Structure
 
@@ -55,48 +43,49 @@ This project analyzes the Olist Brazilian E-Commerce dataset to understand custo
 olist-ecommerce-analysis/
 │
 ├── data/
-│   └── raw/                # Dataset folder (CSV files downloaded from Kaggle; not included in repo)
+│   └── raw/                                # Dataset folder (CSV files downloaded from Kaggle; not included in repo)
 │       └── .gitkeep
 │
 ├── notebooks/
 │   └── olist_brazilian_ecommerce_data_analysis.ipynb   # Main analysis notebook
 │
 ├── outputs/
-│   ├── figures/            # Generated charts and visualizations
-│   └── tables/             # Exported analysis tables (CSV)
+│   ├── figures/                            # Generated charts and visualizations
+│   └── tables/                             # Exported analysis tables (CSV)
 │
-├── README.md               # Project documentation and overview
-├── requirements.txt        # Python dependencies used in the project
-└── .gitignore              # Files and folders excluded from version control
-
-
+├── powerbi/
+│   ├── Olist_brazilian_ecommerce_dashboard.pbix        # Power BI dashboard file
+│   └── dashboard_screenshots/
+│       ├── page1_revenue_and_growth.png
+│       ├── page2_sales_and_product_performance.png
+│       ├── page3_operations_and_delivery.png
+│       ├── page4_customer_satisfaction.png
+│       └── page5_key_insights.png
+│
+├── README.md                               # Project documentation and overview
+├── requirements.txt                        # Python dependencies used in the project
+└── .gitignore                              # Files excluded from version control
 ```
 
-
-
-
-
 ------------------------------------------------------------------------
 
-## 📂Folder details:
+## 📂 Folder Details
 
+- data/raw/** – Original `.csv` files saved here (downloaded from Kaggle).
 
+- notebooks/** – Jupyter Notebook used for data cleaning, exploratory data analysis, and generating insights.
 
-- data/raw/\*\* – Original `.csv` files need to be saved here    
+- outputs/figures/** – Saved plots such as average revenue, monthly revenue, monthly AOV, top 10 states by revenue, average review score, and monthly orders.
 
-- outputs/figures/\*\* – Saved plots such as Average revenue, monthly revenue, monthly aov, top 10 states, average review score and monthly orders
+- outputs/tables/** – Exported summary tables including customer retention, customer orders, customer value, late delivery retention comparison, order status counts, repeat purchase cycle, review summary, and other regional summaries.
 
-- outputs/tables/\*\* – Summary tables such as customer retention, customer orders, customer value, late delivery retention, order status counts, repeat purchase cycle, review summary and other region summaries 
+- powerbi/** – Power BI dashboard file (`.pbix`) used to build interactive visualizations and business insights from the processed dataset.
 
-
+- powerbi/dashboard_screenshots/** – Exported screenshots of the Power BI dashboard pages used for project documentation and GitHub preview.
 
 ------------------------------------------------------------------------
-
-
 
 ## 📊 Key Insights
-
-
 
 * Revenue Growth: Total marketplace revenue shows consistent growth across the dataset period, reaching approximately ~15.4M GMV across ~96K delivered orders, indicating strong marketplace expansion.
 
@@ -108,15 +97,9 @@ olist-ecommerce-analysis/
 
 * Operational Impact: Orders delivered late receive much lower review scores (~2.57) compared to on-time deliveries (~4.29), demonstrating the strong impact of delivery performance on customer satisfaction.
 
-
-
 ------------------------------------------------------------------------
 
-
-
 ## 📈 Business Recommendations
-
-
 
 -- Improve Customer Retention: With only ~3% repeat customers, introduce loyalty programs and targeted promotions to encourage repeat purchases.
 
@@ -127,7 +110,6 @@ olist-ecommerce-analysis/
 ------------------------------------------------------------------------
 
 ## 🚀 How to Run
-
 
 
 1.  Clone this repository
@@ -147,10 +129,7 @@ olist-ecommerce-analysis/
 
 6.  Open the notebook and run the analysis: jupyter notebook notebooks/olist_brazilian_ecommerce_data_analysis.ipynb
 
-
 ------------------------------------------------------------------------
-
-
 
 ## 💡 Author
 
